@@ -7,12 +7,17 @@ export const metadata: Metadata = {
   description: 'Where Legends Are Made - Pangea\'s Internal Culture Hub',
   generator: 'Next.js',
   manifest: '/manifest.json',
-  themeColor: '#0A1628',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   icons: {
     icon: '/icon-192x192.svg',
     apple: '/icon-192x192.svg',
   },
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#0A1628',
 }
 
 export default function RootLayout({
